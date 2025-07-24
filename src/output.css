@@ -300,8 +300,17 @@
   .h-full {
     height: 100%;
   }
+  .max-h-10 {
+    max-height: calc(var(--spacing) * 10);
+  }
   .max-h-64 {
     max-height: calc(var(--spacing) * 64);
+  }
+  .max-h-100 {
+    max-height: calc(var(--spacing) * 100);
+  }
+  .max-h-fit {
+    max-height: fit-content;
   }
   .w-1 {
     width: calc(var(--spacing) * 1);
@@ -362,6 +371,9 @@
   }
   .max-w-\[2070px\] {
     max-width: 2070px;
+  }
+  .max-w-fit {
+    max-width: fit-content;
   }
   .border-collapse {
     border-collapse: collapse;
